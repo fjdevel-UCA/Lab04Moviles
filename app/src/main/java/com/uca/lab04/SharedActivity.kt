@@ -28,9 +28,7 @@ class SharedActivity : AppCompatActivity() {
         compartir.setOnClickListener {
             val sendIntent: Intent = Intent().apply {
                 action = Intent.ACTION_SEND
-               putExtra("nombre",nombre.text.toString())
-               putExtra("email",email.text.toString())
-               putExtra("telefono",telefono.text.toString())
+               putExtra(Intent.EXTRA_TEXT,nombre.text.toString()+email.text.toString()+telefono.text.toString())
                 type = "text/plain"
             }
 
