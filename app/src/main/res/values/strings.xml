@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAb04</string>
+    <string name="titulo">Rellene la siguiente informacion</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Correo Electronico</string>
+    <string name="telefono">Numero de telefono</string>
+    <string name="guardar">Guardar</string>
+    <string name="Confirma">Confirma tu Informacion</string>
+    <string name="Compartir">Compartir</string>
+
+</resources>
